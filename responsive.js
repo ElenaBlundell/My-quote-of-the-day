@@ -1,3 +1,4 @@
+// Nice handling here. remove console.logs when done with development
 import {
     imgQuote2,
     imgQuote3,

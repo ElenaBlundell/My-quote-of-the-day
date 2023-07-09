@@ -10,6 +10,7 @@ const exit = get("exit-btn")
 
 const flexCardsCollection = document.getElementsByClassName("flex-card")
 
+// this code also seems to be repeated... 
 open.addEventListener("click", () => {
     const flexCardsArr = Array.from(flexCardsCollection)
     nav.classList.add("open-nav")

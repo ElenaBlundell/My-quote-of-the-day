@@ -17,6 +17,7 @@
 
 <body>
     <nav id="nav">
+        <!-- I think this should be a `button` element that closes the `nav`, rather than a generic `div` -->
         <div id="exit-btn" class="inner-wrapper">
             <img src="images/left-arrow.png" alt="go back icon">
             <p>Go back</p>
@@ -47,14 +48,17 @@
         </div>
     
         <div id="carousel-buttons" class="carousel-actions">
+            <!-- typo in first aria-label -->
             <button id="carousel-button-prev" aria-label="Previous Slidex"><</button> 
             <button id="carousel-button-next" aria-label="Next Slide">></button>
         </div>
     </div>
     <main id="main">
+        <!-- is this `div` necessary? -->
         <div class="topic-name">
             <h2 id="topic-name" class="hidden"></h2>
         </div>
+        <!-- I think you should use the semantic HTML element `section` here -->
         <div id="all-topics" class="flex-container">
         </div>
     </main>

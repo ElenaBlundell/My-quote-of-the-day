@@ -1,6 +1,8 @@
+// Overall I think this code is well-written. I think a few code comments could be helpful... maybe just to note which element of the DOM something is being rendered to. When done with development, you should remove commented out code.
 import {baseUrl} from "./data.js"
 import {carouselButtons} from './carousel.js'
 
+// I like this!
 const get = element => document.getElementById(element);
 
 const open = get("menu-btn")
